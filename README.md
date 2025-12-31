@@ -42,11 +42,50 @@ An intelligent platform helping Ontario students discover, compare, and plan edu
 - Ethical web scraping with rate limiting & robots.txt compliance
 - Multi-cloud deployment strategy (Vercel + Render + Railway)
 
+**Detailed Architecture Diagram:**
+
+```mermaid
+graph TB
+    subgraph "Frontend (Vercel)"
+        A[Next.js 14 App] --> B[Zustand Store]
+        A --> C[React Query Cache]
+        B --> D[API Client]
+    end
+    
+    subgraph "Backend (Render)"
+        E[FastAPI Server] --> F[Pydantic Validation]
+        F --> G[SQLAlchemy ORM]
+        G --> H[(PostgreSQL 15)]
+        E --> I[Background Tasks]
+    end
+    
+    subgraph "AI Microservice (Railway)"
+        J[Ollama Server] --> K[Mistral 7B]
+        K --> L[Fine-tuned Model]
+        L --> M[RAG Pipeline]
+    end
+    
+    subgraph "Data Ingestion"
+        N[Firecrawl API] --> O[Gemini AI Extraction]
+        O --> P[Pydantic Models]
+        P --> Q[Parquet Export]
+        Q --> H
+    end
+    
+    D -->|REST API| E
+    E -->|Chat Completion| J
+    I -->|Scraping Jobs| N
+    M -->|Context Retrieval| H
+    
+    style A fill:#61dafb
+    style E fill:#009688
+    style J fill:#ff6b6b
+    style H fill:#336791
 ```
-Next.js Frontend ──REST API──> FastAPI Backend ──SQL──> PostgreSQL
-     ├─ Zustand state             ├─ SQLAlchemy ORM        ├─ Alembic migrations
-     ├─ React Query cache         ├─ Pydantic validation   └─ UUID primary keys
-     └─ Tailwind CSS              └─ Google OAuth
+
+**Data Pipeline:**
+```
+College Websites → Firecrawl → Gemini AI → Pydantic Validation → Parquet → PostgreSQL → RAG → Mistral 7B
 ```
 
 **Impact:** Aggregates 4,000+ courses from multiple institutions into a single searchable platform, reducing program discovery time from hours to minutes.
