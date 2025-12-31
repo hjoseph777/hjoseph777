@@ -59,15 +59,18 @@ graph TB
         E --> I[Background Tasks]
     end
     
-    subgraph "AI Microservice (Railway)"
-        J[Ollama Server] --> K[Mistral 7B]
+    subgraph "AI Microservice (Railway - WASM)"
+        J[Ollama WASM Runtime] --> K[Mistral 7B]
         K --> L[Fine-tuned Model]
         L --> M[RAG Pipeline]
+        J -.->|No Containers| N2[Direct WASM Execution]
     end
     
     subgraph "Data Ingestion"
-        N[Firecrawl API] --> O[Gemini AI Extraction]
+        N[Crawl4AI Local] --> O[Ollama AI Extraction]
         O --> P[Pydantic Models]
+        N2[Firecrawl API] -.->|Fallback| O2[Gemini AI]
+        O2 -.-> P
         P --> Q[Parquet Export]
         Q --> H
     end
@@ -85,9 +88,8 @@ graph TB
 
 **Data Pipeline:**
 ```
-College Websites → Firecrawl → Gemini AI → Pydantic Validation → Parquet → PostgreSQL → RAG → Mistral 7B
-```
-
+College Websites → Crawl4AI + Ollama → Pydantic Validation → Parquet → PostgreSQL → RAG → Mistral 7B
+                ↳ Firecrawl + Gemini AI (fallback)
 **Impact:** Aggregates 4,000+ courses from multiple institutions into a single searchable platform, reducing program discovery time from hours to minutes.
 
 ---
