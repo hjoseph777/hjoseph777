@@ -90,6 +90,8 @@ graph TB
 ```
 College Websites → Crawl4AI + Ollama → Pydantic Validation → Parquet → PostgreSQL → RAG → Mistral 7B
                 ↳ Firecrawl + Gemini AI (fallback)
+```
+
 **Impact:** Aggregates 4,000+ courses from multiple institutions into a single searchable platform, reducing program discovery time from hours to minutes.
 
 ---
