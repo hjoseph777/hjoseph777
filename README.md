@@ -197,7 +197,7 @@ Multi-city weather tracking with forecast visualization.
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hjoseph777&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=hjoseph777&theme=tokyonight&hide_border=true)
 
 </div>
 
