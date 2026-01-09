@@ -9,6 +9,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
 [![Email](https://img.shields.io/badge/Email-hjoseph777%40gmail.com-red?logo=gmail)](mailto:hjoseph777@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green? logo=github)](https://github.com/hjoseph777? tab=repositories)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?logo=github)](https://github.com/hjoseph777)
 
 ---
