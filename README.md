@@ -4,7 +4,7 @@
 
 🌍 **Based in:** Canada  
 💼 **Experience:** 15+ years in IT & Application Support  
-🎓 **Focus:** Full-stack development, AI/LLM applications, DevOps automation  
+🎓 **Focus:** IBM Mainframe ZOS and AIX, Full-stack development, AI/LLM applications, DevOps automation  
 💡 **Currently:** Building production-grade AI-powered web applications
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
