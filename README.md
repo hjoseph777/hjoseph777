@@ -96,6 +96,60 @@ College Websites → Crawl4AI + Ollama → Pydantic Validation → Parquet → P
 
 ---
 
+### 🤖 [AIproviso](https://github.com/hjoseph777/AIproviso) — M-Files Workflow Ingestion Platform
+> **React 18 | Vite | Electron | XState | Docker**
+> **Phase I POC — Live Demo:** [provisio-theta.vercel.app](https://provisio-theta.vercel.app/)
+
+An AI-powered automation platform that eliminates **triple manual entry** in M-Files workflow deployments — replacing 4–6 hours of consultant work with a single 10-minute SOW-to-vault pipeline. **Think "one input, four outputs, zero re-entry."**
+
+**The Problem Solved:**  
+Every M-Files workflow deployment traditionally requires the same logic written three times by hand (SOW document → diagram → M-Files Admin). Proviso collapses all three steps into one, using a spreadsheet as the single source of truth.
+
+**Tech Stack:**
+- **Frontend:** React 18, Vite, Tailwind CSS, Mermaid.js, Zustand
+- **Desktop:** Electron (cross-platform installable app)
+- **Workflow Engine:** XState v5, `@xyflow/react` (visual node editor), ELK.js auto-layout
+- **Backend:** Python · Flask · pywin32 · M-Files COM API
+- **Realtime Collaboration:** Yjs + y-websocket (CRDT-based)
+- **Workers:** BullMQ + Redis (timer-worker), dedicated workflow-engine microservice (PostgreSQL + XState)
+- **DevOps:** Docker Compose (multi-service stack), Vercel (demo hosting)
+- **AI:** Local NLP engine (regex + pattern matching) · Claude AI (optional PRD enhancement)
+
+**Key Features:**
+- 📋 **SOW Editor** — Live Mermaid diagram renders in real-time as workflow states/transitions are defined
+- 🤖 **Auto PRD Generation** — NLP transforms technical spreadsheet data into client-ready documentation in ~1 minute
+- ⚡ **Vault Ingestion** — COM API writes states, transitions & aliases directly into M-Files in ~30 seconds
+- 🔁 **Instant Iteration** — One cell change cascades through diagram, PRD, and vault config automatically
+- 🖥️ **Visual Workflow Designer** — Drag-and-drop node editor (`@xyflow/react`) for intuitive workflow building
+- 🤝 **Real-time Collaboration** — Multi-user concurrent editing via Yjs CRDT sync
+
+**Data Flow:**
+```
+SOW Spreadsheet (React UI)
+        │
+        ▼
+  workflow.json  ◄── single source of truth
+        │
+  ┌─────┼──────────────┐
+  ▼     ▼              ▼
+Diagram  PRD (.md)   M-Files Vault
+(Mermaid) (NLP/AI)  (COM API)
+```
+
+**Time Savings:**
+
+| Task | Before | After | Saved |
+|------|--------|-------|-------|
+| Define states + transitions | 45–60 min | 5 min | **~50 min** |
+| Draw workflow diagram | 30–45 min | 0 min (auto) | **~35 min** |
+| Write PRD documentation | 60–90 min | 1 min (NLP) | **~75 min** |
+| Configure M-Files Admin | 60–120 min | 30 sec (API) | **~90 min** |
+| **Total per workflow** | **4–6 hours** | **~10 min** | **~5 hours** |
+
+**Impact:** Saves 10–15 hours per consulting engagement; eliminates configuration drift between SOW, diagrams, and vault deployments.
+
+---
+
 ### 🚌 [Mobile Punch Clock](https://github.com/hjoseph777/MobilePunchClock) — Cross-Platform Time Tracking
 > **C# | .NET MAUI | Cloud-Native**
 
@@ -236,7 +290,7 @@ Multi-city weather tracking with forecast visualization.
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=18000)
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
@@ -250,7 +304,7 @@ Multi-city weather tracking with forecast visualization.
 
 - 📦 **125 Public Repositories** — Active open-source contributor
 - 🎯 **798 Contributions** (Last Year) — Consistent development activity
-- ⭐ **Featured Projects** — MobilePunchClock, CourseCompass, MoviesLand
+- ⭐ **Featured Projects** — MobilePunchClock, CourseCompass, AIproviso, MoviesLand
 - 🌟 **Recent Work** — AI-powered applications with production-grade architecture
 
 ---
