@@ -19,10 +19,10 @@
 > **React 18 | Vite | Electron | XState | Docker**
 > **Phase I POC — Live Demo:** [provisio-theta.vercel.app](https://provisio-theta.vercel.app/)
 
-An AI-powered automation platform that eliminates **triple manual entry** in M-Files workflow deployments — replacing 4–6 hours of consultant work with a single 10-minute SOW-to-vault pipeline. **Think "one input, four outputs, zero re-entry."**
+An AI-powered automation platform that eliminates **triple manual entry** in M-Files workflow deployments — replacing 4–6 hours of consultant work with a single 10-minute SOW-to-vault pipeline[...]
 
 **The Problem Solved:**  
-Every M-Files workflow deployment traditionally requires the same logic written three times by hand (SOW document → diagram → M-Files Admin). Proviso collapses all three steps into one, using a spreadsheet as the single source of truth.
+Every M-Files workflow deployment traditionally requires the same logic written three times by hand (SOW document → diagram → M-Files Admin). Proviso collapses all three steps into one, using [...]
 
 **Tech Stack:**
 - **Frontend:** React 18, Vite, Tailwind CSS, Mermaid.js, Zustand
@@ -290,7 +290,7 @@ Multi-city weather tracking with forecast visualization.
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=18000)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_secon[...]
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
