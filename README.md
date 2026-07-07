@@ -289,12 +289,12 @@ Multi-city weather tracking with forecast visualization.
 ## 📊 GitHub Statistics
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_secon[...]
 
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hjoseph777&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=hjoseph777&theme=tokyonight&hide_border=true)
 
 </div>
 
