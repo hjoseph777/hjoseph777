@@ -4,7 +4,7 @@
 
 🌍 **Based in:** Canada  
 💼 **Experience:** 15+ years in IT & Application Support  
-🎓 **Focus:** IBM Mainframe ZOS and AIX, Full-stack development, AI/LLM applications, DevOps automation  
+🎓 **Focus:** Full-stack development, AI/LLM applications, DevOps automation  
 💡 **Currently:** Building production-grade AI-powered web applications
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/harry-j-1538023/)
@@ -19,10 +19,10 @@
 > **React 18 | Vite | Electron | XState | Docker**
 > **Phase I POC — Live Demo:** [provisio-theta.vercel.app](https://provisio-theta.vercel.app/)
 
-An AI-powered automation platform that eliminates **triple manual entry** in M-Files workflow deployments — replacing 4–6 hours of consultant work with a single 10-minute SOW-to-vault pipeline[...]
+An AI-powered automation platform that eliminates **triple manual entry** in M-Files workflow deployments — replacing 4–6 hours of consultant work with a single 10-minute SOW-to-vault pipeline.
 
 **The Problem Solved:**  
-Every M-Files workflow deployment traditionally requires the same logic written three times by hand (SOW document → diagram → M-Files Admin). Proviso collapses all three steps into one, using [...]
+Every M-Files workflow deployment traditionally requires the same logic written three times by hand (SOW document → diagram → M-Files Admin). Proviso collapses all three steps into one, using a structured workflow.json as the single source of truth.
 
 **Tech Stack:**
 - **Frontend:** React 18, Vite, Tailwind CSS, Mermaid.js, Zustand
@@ -70,7 +70,7 @@ Diagram  PRD (.md)   M-Files Vault
 ---
 
 ### 🎓 [CourseCompass](https://github.com/hjoseph777/Compass) — AI-Powered Academic Navigation Platform
-** Dev Ready |Production-Ready  Mid 2026** | author developer Harry Joseph
+> **Current Dev| Production-Ready Mid 2026 |Author developer Harry Joseph*
 
 An intelligent platform helping Ontario students discover, compare, and plan educational pathways across postsecondary institutions. **Think "Google for college programs" with AI counselling.**
 
@@ -289,12 +289,12 @@ Multi-city weather tracking with forecast visualization.
 ## 📊 GitHub Statistics
 
 <div align="center">
+  
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hjoseph777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hjoseph777&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=hjoseph777&theme=tokyonight&hide_border=true)
+[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app/?user=hjoseph777&theme=tokyonight)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 </div>
 
@@ -304,7 +304,7 @@ Multi-city weather tracking with forecast visualization.
 
 - 📦 **125 Public Repositories** — Active open-source contributor
 - 🎯 **798 Contributions** (Last Year) — Consistent development activity
-- ⭐ **Featured Projects** — AIproviso, CourseCompass, MobilePunchClock, MoviesLand
+- ⭐ **Featured Projects** — AIproviso, MobilePunchClock, CourseCompass, MoviesLand
 - 🌟 **Recent Work** — AI-powered applications with production-grade architecture
 
 ---
